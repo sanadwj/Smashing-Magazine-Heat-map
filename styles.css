@@ -9,6 +9,9 @@
     --color4: #a9a9a9;
     --color5: #c0c0c0;
 }
+main {
+    position: relative;
+}
 
 .flex {
     display: flex;
@@ -16,7 +19,7 @@
 }
 
 .navbar {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -66,4 +69,65 @@
     background-color: var(--color3);
 }
 
+.title {
+    display: block;
+    position: absolute;
+    width: 25em;
+    top: 50px;
+    left: 50%;
+    text-align: center;
+    margin-left: -12.5em;
+    margin-right: auto;
+    background-color: var(--color1);
+    
+}
+.float-button {
+    position: absolute;
+    
+    
+}
+
+.main-article {
+    display: flex;
+    flex-wrap: wrap;
+    height: 1300px;
+
+}
+
+.main-article article {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 250px 50px ;
+    
+
+}
+
+.main-article span {
+    font-size: 20px;
+}
+
+.main-article h2 {
+    font-size: 50px;
+}
+
+.main-article p {
+    font-size: 20px;
+}
+
+.main-one {
+    background-color: var(--color3);
+}
+
+.main-two {
+    background-color: var(--color4);
+}
+
+.main-three {
+    background-color: var(--color3);
+}
+
+.main-four {
+    background-color: var(--color5);
+}
 
