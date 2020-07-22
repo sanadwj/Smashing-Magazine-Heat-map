@@ -1,3 +1,5 @@
+/*------------Common Styles---------------*/
+
 * {
     box-sizing: border-box;
 }
@@ -8,6 +10,8 @@
     --color3: #808080;
     --color4: #a9a9a9;
     --color5: #c0c0c0;
+    --color6: #ddd;
+    --color7: rgb(238, 237, 237);
 }
 main {
     position: relative;
@@ -18,6 +22,7 @@ main {
     flex-direction: row;
 }
 
+/*------------Navbar Styles---------------*/
 .navbar {
     position: relative;
     top: 0;
@@ -69,6 +74,7 @@ main {
     background-color: var(--color3);
 }
 
+/*------------Main Articles Styles---------------*/
 .title {
     display: block;
     position: absolute;
@@ -77,29 +83,37 @@ main {
     left: 50%;
     text-align: center;
     margin-left: -12.5em;
-    margin-right: auto;
     background-color: var(--color1);
     
 }
 .float-button {
     position: absolute;
-    
-    
+    top: 50px;
+    right: 50px;
+    width: 14rem;
+    height: 3rem;
+    background-color: var(--color5);
+}
+
+.float-button button {
+    background-color: var(--color5);
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    font-size: 18px;
 }
 
 .main-article {
     display: flex;
     flex-wrap: wrap;
-    height: 1300px;
-
+    height: auto;
 }
 
 .main-article article {
     display: block;
-    float: left;
     width: 50%;
-    padding: 250px 50px ;
-    
+    padding: 250px 50px;
 
 }
 
@@ -131,3 +145,32 @@ main {
     background-color: var(--color5);
 }
 
+/*------------Row Aticles Styles---------------*/
+
+.row-articles {
+    flex-wrap: wrap;
+}
+
+.small-article {
+    max-width: 33.33%;
+    padding: 3rem 4rem;
+    height: 30rem;
+    background-color: var(--color7);
+}
+
+.small-article h3 {
+    background-color: var(--color3);
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.small-article p {
+    background-color: var(--color6);
+    margin-top: 60px;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.small-article span {
+    font-size: 12px;
+}
