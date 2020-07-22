@@ -15,6 +15,7 @@
 }
 main {
     position: relative;
+    background-color: var(--color7);
 }
 
 .flex {
@@ -149,12 +150,13 @@ main {
 
 .row-articles {
     flex-wrap: wrap;
+    height: 42em;
 }
 
 .small-article {
     max-width: 33.33%;
     padding: 3rem 4rem;
-    height: 30rem;
+    height: auto;
     background-color: var(--color7);
 }
 
@@ -173,4 +175,78 @@ main {
 
 .small-article span {
     font-size: 12px;
+}
+
+.ad-section {
+    display: flex;
+    
+}
+
+
+.ad {
+    display: block;
+    height: 100%;
+    width: 25%;
+    background-color: var(--color3);
+    margin: 50px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.red-article {
+    display: block;
+    height: 52em;
+    width: 75%;
+    margin: 50px;
+    background-color: var(--color1);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.red-article h2 {
+    font-size: 32px;
+}
+
+.red-article p {
+    padding: 70px;
+}
+
+.red-container {
+    align-content: flex-start;
+}
+
+.see-all {
+    text-align: center;
+    margin: 50px;
+}
+
+.blue-book {
+    display: block;
+    width: 100%;
+    height: 57em;
+    background-color: var(--color3);
+    text-align: center;
+    padding: 50px;
+}
+
+.blue-book h2 {
+    font-size: 36px;
+    margin: 60px;
+    background-color: var(--color1);
+    height: 100px;
+    
+}
+
+.blue-book p {
+    margin: 40px;
+    height: 80px;
+    background-color: var(--color2);
+}
+
+.blue-book button {
+    height: 60px;
+    width: 270px;
+    border-radius: 10px;
+
+
 }
