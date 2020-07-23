@@ -271,6 +271,7 @@ main {
     height: 60px;
     width: 270px;
     border-radius: 10px;
+    font-size: 22px;
 
 
 }
@@ -285,7 +286,7 @@ main {
 .big {
     width: 12rem;
     height: 12rem;
-    margin: 0 3rem 0 -1rem;
+    margin: -2rem 3rem 0 -1rem;
 }
 
 .week-person {
@@ -324,6 +325,7 @@ main {
     position: relative;
     width: 100%;
     padding: 2rem 5rem;
+    background-color: var(--color1);
 }
 
 .red-image {
@@ -346,4 +348,62 @@ main {
 .red-book p {
     width: 60%;
     font-size: 1.3rem;
+}
+
+.big-button {
+    width: 22rem;
+    height: 4rem;
+    border-radius: 10px;
+    font-size: 22px;
+    background-color: var(--color2);
+}
+
+.lang-articles {
+    display: grid;
+    grid-template: 1fr 2fr / 1fr 1fr;
+    margin-top: 5rem;
+}
+
+.grid-article-1, .grid-article-2, .grid-article-3, .grid-article-4{
+    margin: 3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--color4);
+    font-size: 28px;
+    
+}
+.grid-article-4 {
+    background-color: var(--color3);
+
+}
+
+.input {
+    width: 25rem;
+    height: 4rem;
+    border-radius: 10px;
+    background-color: var(--color1);
+}
+
+.footer {
+    height: 25rem;
+    margin: 5rem;
+    background-color: var(--color2);
+    
+    
+    
+}
+.footer ul {
+    display: inline-flex;
+    list-style-position: inside;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.footer li{
+    padding: 5px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 5px;
+    
 }
