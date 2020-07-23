@@ -134,7 +134,7 @@ main {
   padding: 250px 50px;
 }
 
-.main-article span {
+.main-article span,p {
   font-size: 20px;
 }
 
@@ -142,9 +142,6 @@ main {
   font-size: 50px;
 }
 
-.main-article p {
-  font-size: 20px;
-}
 
 .main-one {
   background-color: var(--color3);
@@ -166,12 +163,13 @@ main {
 
 .row-articles {
   flex-wrap: wrap;
-  height: 42em;
-  margin: 4rem 1rem;
+  height: auto;
+  margin-left: 2rem;
 }
 
 .small-article {
-  max-width: 33.33%;
+  max-width: 31%;
+  margin-bottom: 50px;
   padding: 3rem 4rem;
   height: auto;
   background-color: var(--color7);
@@ -195,25 +193,12 @@ main {
   font-size: 12px;
 }
 
-.ad-section {
-  display: flex;
-}
-
-.ad {
-  display: block;
-  height: 100%;
-  width: 25%;
-  background-color: var(--color3);
-  margin: 50px;
-  padding: 20px;
-  border-radius: 20px;
-}
-
 .red-article {
-  display: block;
-  height: 52em;
-  width: 75%;
-  margin: 50px;
+  position: relative;
+  left: 0;
+  height: 43em;
+  width: 60%;
+  margin: 0 1.7rem 50px 0;
   margin-top: 0;
   background-color: var(--color1);
   text-align: center;
@@ -228,8 +213,10 @@ main {
   padding: 70px;
 }
 
-.fixed {
-  max-height: 35rem;
+.big-box {
+    width: 91%;
+    margin: 0 2rem 3rem 2rem;
+    padding: 5rem 25rem;
 }
 
 .red-container {
@@ -258,7 +245,7 @@ main {
   height: 57em;
   background-color: var(--color3);
   text-align: center;
-  padding: 50px;
+  padding: 5rem 18rem;
 }
 
 .blue-image {
