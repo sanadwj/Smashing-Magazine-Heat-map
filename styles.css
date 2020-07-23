@@ -15,7 +15,6 @@
 }
 main {
     position: relative;
-    background-color: var(--color7);
 }
 
 .flex {
@@ -103,6 +102,18 @@ main {
     right: 0;
     top: 25%;
     font-size: 18px;
+}
+
+.main-img {
+    width: 60px;
+    height: 60px;
+    background-color: var(--color2);
+    border: 1 solid var(--color2);
+    z-index: 1;
+    float: left;
+    margin: -10px 15px 0px 0;
+    transform: rotate(-15deg);
+    border-radius: 10px;
 }
 
 .main-article {
@@ -211,13 +222,26 @@ main {
     padding: 70px;
 }
 
+.fixed {
+    max-height: 35rem;
+}
+
 .red-container {
     align-content: flex-start;
 }
 
 .see-all {
     text-align: center;
-    margin: 50px;
+    background-color: var(--color3);
+    width: 15rem;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.see-all a {
+    text-decoration: none;
+    color: black;
 }
 
 .blue-book {
@@ -249,4 +273,77 @@ main {
     border-radius: 10px;
 
 
+}
+
+/*-----------------Person articles------------------*/
+
+.writers {
+    position: relative;
+    margin-top: 4rem;
+}
+
+.big {
+    width: 12rem;
+    height: 12rem;
+    margin: 0 3rem 0 -1rem;
+}
+
+.week-person {
+    background-color: var(--color3);
+    padding: 4rem;
+}
+
+.authors {
+    flex-wrap: wrap;
+    background-color: var(--color5);
+    margin-bottom: 3rem;
+}
+
+.person-article {
+    width: 50%;
+    padding: 6rem;
+    height: 22rem;
+}
+
+.person-article h4 {
+    font-size: 28px;
+    background-color: var(--color2);
+    width: auto;
+    margin-left: 4.5rem;
+    margin-top: -0.2rem;
+}
+
+.person-article p {
+    background-color: var(--color4);
+    margin-left: 4.5rem;
+}
+
+/*----------Red Book-----------*/
+
+.red-book {
+    position: relative;
+    width: 100%;
+    padding: 2rem 5rem;
+}
+
+.red-image {
+    width: 13rem;
+    height: 20rem;
+    background-color: var(--color2);
+    z-index: 1;
+    position: absolute;
+    right: 6rem;
+    top: -2rem;
+    transform: rotate(-15deg);
+    border-radius: 10px;
+}
+
+.red-book h2 {
+    font-size: 3.5rem;
+    margin: 1rem ;
+}
+
+.red-book p {
+    width: 60%;
+    font-size: 1.3rem;
 }
