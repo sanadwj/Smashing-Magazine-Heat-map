@@ -134,14 +134,14 @@ main {
   padding: 250px 50px;
 }
 
-.main-article span,p {
+.main-article span,
+p {
   font-size: 20px;
 }
 
 .main-article h2 {
   font-size: 50px;
 }
-
 
 .main-one {
   background-color: var(--color3);
@@ -214,9 +214,9 @@ main {
 }
 
 .big-box {
-    width: 91%;
-    margin: 0 2rem 3rem 2rem;
-    padding: 5rem 25rem;
+  width: 91%;
+  margin: 0 2rem 3rem 2rem;
+  padding: 5rem 25rem;
 }
 
 .red-container {
